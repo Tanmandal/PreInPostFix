@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Inptxt"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="550dp"
+        android:ems="10"
+        android:gravity="center|center"
+        android:inputType="textMultiLine"
+        android:textSize="35sp"
+        />
+
+    <RadioButton
+        android:id="@+id/radioPre"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Inptxt"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="-55dp"
+        android:text="PRE"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/radioIn"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioPre"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="-55dp"
+        android:text="IN"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/radioPost"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioIn"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="-55dp"
+        android:text="POST"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="-120dp"
+        android:text="PREFIX"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Preview"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-106dp"
+        android:textSize="35sp"
+        android:gravity="center|center"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="-270dp"
+        android:text="INFIX"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Inview"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-106dp"
+        android:textSize="35sp"
+        android:gravity="center|center"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="-420dp"
+        android:text="POSTFIX"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Postview"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-106dp"
+        android:textSize="35sp"
+        android:gravity="center|center"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/g"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Inptxt"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="-113dp"
+        android:text="GO"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/cl"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Inptxt"
+        android:layout_alignBottom="@+id/Inptxt"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="-113dp"
+        android:text="⨂"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
